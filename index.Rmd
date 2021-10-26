@@ -464,7 +464,6 @@ readxl::read_xlsx("accessibility-checklist.xlsx") %>%
 
 class: center middle
 
-### Accessibility and Inclusion
 
 ```{r checklist2, echo=FALSE}
 
@@ -478,12 +477,11 @@ readxl::read_xlsx("accessibility-checklist.xlsx") %>%
 
 class: center middle
 
-### Accessibility and Inclusion
 
 ```{r checklist3, echo=FALSE}
 
 readxl::read_xlsx("accessibility-checklist.xlsx") %>%  
-  slice(6:10) %>% 
+  slice(6:11) %>% 
   knitr::kable() 
   
 ```
@@ -527,6 +525,7 @@ plot_beta(alpha = 10, beta = 2)
 ```
 
 ]
+
 ---
  
 ```{r fig.align='center', fig.alt="X axis reads pi with values from 0 to 1. Y axis reads density. Three curves are shown labeled as prior, (scaled) likelihood, and posterior. The prior curve of the graph has a high peak on the y-axis when pi equals to 0.25 and y values are close to zero when pi is greater than 0.7. The likelihood curve has a high peak on the y-axis when pi equals to 0.95 and is quite peaked with low variance. The posterior sits between the prior and likelihood curves."}
@@ -817,7 +816,7 @@ class: middle
 
 - Cal State Fullerton will develop and implement a course similar to UC Irvine's Stats 115 Introduction to Bayesian Data Analysis.
 
-- Through this project our students get to work with real Bayesian and non-Bayesian projects of our industry partners.
+- Through this project our students get to work with real Bayesian and non-Bayesian projects of our academic and industry partners.
 
 HDR DSC awards: \#2123366 \#2123380 \#2123384
 
